@@ -65,8 +65,8 @@ The code was written using **Python 3.12**, so make sure you have this [version]
 After cloning the repository, navigate to the root directory and create and activate a virtual environment. We'll install all the required libraries inside this virtual environment, preventing any conflicts with other projects you might have on your computer:
 
 ```shell
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv .venv
+.venv\Scripts\Activate
 ```
 
 Now, within the virtual environment, you can update `pip` and install the libraries specified in the `requirements.txt` file:
